@@ -1,14 +1,14 @@
 # Large File Finder (Android)
 
-An highly optimized Android application designed to find the top **N largest files** within user-defined directories and subdirectories. This project was developed with a strong focus on algorithmic efficiency, memory management, and modern Android architecture.
+A highly optimized Android application designed to find the top **N largest files** within user-defined directories and subdirectories. This project was developed with a strong focus on algorithmic efficiency, memory management, and modern Android architecture.
 
 ## 🚀 Features
 
-* **Dynamic Directory Selection:** Users can add multiple local directories to scan using a custom, high-speed built-in file picker.
+* **Dynamic Directory Selection:** Users can add local directories to scan using a custom, high-speed built-in file picker.
 * **Top N Files:** Easily specify how many of the largest files (N) to retrieve.
 * **Real-time Progress:** Live scanning progress (files scanned) is updated dynamically in the UI.
 * **System Notifications:** A persistent low-priority system notification updates the user on the search progress in the background.
-* **Parallel Execution:** If multiple directories are selected (e.g., Internal Storage and External SD Card), the application automatically scans them concurrently on separate threads.
+* **Parallel Execution:** If  directories are selected (e.g., Internal Storage or External SD Card), the application automatically scans them concurrently on separate threads.
 * **Modern UI:** Built entirely with Jetpack Compose (Material Design 3).
 
 ---
